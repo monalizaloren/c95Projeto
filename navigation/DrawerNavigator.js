@@ -7,10 +7,7 @@ const Drawer = createDrawerNavigator();
 
 const DrawerNavigator = () => {
     return (
-        <Drawer.Navigator>
-            <Drawer.Screen name="Início" component={TabNavigator} />
-            <Drawer.Screen name="Perfil" component={Profile} />
-        </Drawer.Navigator>
+       //Passo 2
     );
 };
 
